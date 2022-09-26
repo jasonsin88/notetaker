@@ -57,15 +57,25 @@ There are three main features of this application:
 :cd: To install this application for local development, install the require packages, use the following command:
 
 ```bash
-npm install
+$ npm install
 ```
 
 :desktop_computer: Once installation is done, use the following command:
 
 ```bash
-# Open the application at http://localhost:3000 in your brower
-npm start
+$ npm start
 ```
+
+The following message will be displayed:
+
+```bash
+> note-taker@1.0.0 start
+> node server.js
+
+App listening at http://localhost:3000 🚀
+```
+
+Follow the localhost link to open the app in the browser
 
 [Back to the Top](#note-taker)
 
