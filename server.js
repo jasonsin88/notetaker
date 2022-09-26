@@ -9,6 +9,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
+// mount middleware for static files
+app.use(express.static(path.join(__dirname, 'public')));
+
 // mount middleware for routes
 app.use('/api/notes', require('./routes/apiRoutes'));
 app.use('/', require('./routes/htmlRoutes'));
