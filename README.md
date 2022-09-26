@@ -14,7 +14,6 @@ https://jasonsin88-notetaker.herokuapp.com/
 - [How to Use](#how-to-use)
 - [How to Install](#how-to-install)
 - [License](#license)
-- [Author Info](#author-info)
 
 # Description
 
